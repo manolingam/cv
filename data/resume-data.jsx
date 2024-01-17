@@ -10,6 +10,7 @@ export const RESUME_DATA = {
   initials: "Saimano",
   location: "Tamil Nadu, India (IST)",
   locationLink: "https://www.google.com/maps/place/Tamilnadu",
+  metadataSlug: 'Full Stack Developer',
   about:
     "Versatile Full Stack Engineer dedicated to crafting web applications with a keen eye for UI & UX, aiming to enhance client experiences.",
   summary:

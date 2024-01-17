@@ -9,8 +9,28 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
+  title: `${RESUME_DATA.name} | ${RESUME_DATA.metadataSlug}`,
   description: RESUME_DATA.summary,
+  openGraph: {
+    title: `${RESUME_DATA.name} | ${RESUME_DATA.metadataSlug}`,
+    description: RESUME_DATA.summary,
+    url: "https://saimano.me",
+    siteName: "Saimano.Me",
+    images: [
+      {
+        url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+      {
+        url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
+        width: 1800,
+        height: 1600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Page() {
