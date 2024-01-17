@@ -20,8 +20,8 @@ export const metadata = {
     images: [
       {
         url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
-        width: 800,
-        height: 600,
+        width: 250,
+        height: 250,
       },
       // {
       //   url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
