@@ -23,11 +23,11 @@ export const metadata = {
         width: 800,
         height: 600,
       },
-      {
-        url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
-        width: 1800,
-        height: 1600,
-      },
+      // {
+      //   url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
+      //   width: 1800,
+      //   height: 1600,
+      // },
     ],
     locale: "en_US",
     type: "website",
