@@ -19,9 +19,9 @@ export const metadata = {
     siteName: "Saimano.Me",
     images: [
       {
-        url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
-        width: 250,
-        height: 250,
+        url: `https://res.cloudinary.com/saimano/image/upload/v1705480591/saimano.me/metadata_img_ghr8bd.png`, // Must be an absolute URL
+        width: 800,
+        height: 600,
       },
       // {
       //   url: `${RESUME_DATA.avatarUrl}`, // Must be an absolute URL
