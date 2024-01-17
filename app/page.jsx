@@ -11,6 +11,7 @@ import { ProjectCard } from "@/components/project-card";
 export const metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.metadataSlug}`,
   description: RESUME_DATA.summary,
+  metadataBase: new URL("https://saimano.me"),
   openGraph: {
     title: `${RESUME_DATA.name} | ${RESUME_DATA.metadataSlug}`,
     description: RESUME_DATA.summary,
